@@ -1,0 +1,78 @@
+# Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+## Overview
+
+HTML CSS Git: Code Refactor
+
+### The challenge
+
+This challenge requires to refactor an existing site to make it more accessible standards SO THAT site is optimized for search engines.
+
+### Links
+
+- Solution URL: [https://conroyiwhiwhu.github.io/code-refactor/](https://your-solution-url.com)
+
+- Live Site URL: [https://github.com/conroyiwhiwhu/code-refactor/](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+
+### What I learned
+
+Learnt how to avoid div soup i.e. over-used 'meaningless' div in html document but rather use tags that have semantic clarity instead.
+
+```html
+<a href="#search-engine-optimization">Search Engine Optimization</a>
+<figure class="hero"></figure>
+```
+
+```css
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+```
+
+### Useful resources
+
+- [Semantic HTML](https://www.w3schools.com/html/html5_semantic_elements.asp)
+- [Image `alt` attributes](https://www.w3schools.com/tags/att_img_alt.asp)
+
+## Author
+
+  C E Iwhiwhu (He/Him)
+
+- Website - [My Webpage](https://conroyiwhiwhu.github.io)
+
+- GitHub - [conroyiwhiwhu](https://github.com/conroyiwhiwhu)
+
+## Acknowledgments
+
+With support from tutors, and teaching assistants (TAs)
